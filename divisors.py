@@ -25,3 +25,5 @@ print("\nCount of multiples of 3 or 7 or both: ") #print multiples
 countMultiples(value)
 
 print("Adding a change to the file for terminal practice.")
+
+print("Now adding this but from a new branch that was this time. FROM TERMINAL!")
