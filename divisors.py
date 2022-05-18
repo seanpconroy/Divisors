@@ -24,3 +24,4 @@ find_divisors(value)
 print("\nCount of multiples of 3 or 7 or both: ") #print multiples
 countMultiples(value)
 
+print("Adding a change to the file for terminal practice.")
