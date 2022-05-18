@@ -1,7 +1,7 @@
-value = int(input("Enter number: "))
+value = int(input("Enter number: ")) #get user input
 
 
-def find_divisors(value):
+def find_divisors(value): #function to find the divisors
 	i = 1
 	while i <= value and i != None:
 		if (value % i==0) :
@@ -9,7 +9,7 @@ def find_divisors(value):
 		i = i + 1
 
 
-def countMultiples(value):
+def countMultiples(value): #function to find multiples
     res = 0;
     for i in range(1, value + 1):
         if (i % 3 == 0 or i % 7 == 0):
@@ -18,9 +18,9 @@ def countMultiples(value):
   
     
 
-print("Divisors: ")
+print("Divisors: ") #print divisors
 find_divisors(value)
 
-print("\nCount of multiples of 3 or 7 or both: ")
+print("\nCount of multiples of 3 or 7 or both: ") #print multiples
 countMultiples(value)
 
